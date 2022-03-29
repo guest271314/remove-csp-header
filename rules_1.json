@@ -18,8 +18,14 @@
     "condition": { 
       "regexFilter": "^*://*/*", 
       "resourceTypes": [
-        "main_frame"
-      ] 
+        "main_frame",
+        "sub_frame",
+        "object",
+        "script",
+        "xmlhttprequest",
+        "csp_report",
+        "other"
+      ]
     }
   }
 ]
